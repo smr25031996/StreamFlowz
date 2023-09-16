@@ -2,11 +2,18 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  
+
 }
 .bgimg {
   height: 100vh;
   overflow-x: hidden;
   position: relative;
+  background-image: url(/img/slide2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+ 
 }
 
 .nav-bar .fa {
@@ -19,11 +26,20 @@
 }
 
 .nav-links {
+  
   flex: 1;
+font-size: 14px; 
 }
 
 .nav-links ul {
   display: inline;
+
+ 
+}
+div>ul>a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
 
 .nav-links ul li::after {
@@ -103,11 +119,11 @@
   color: rgba(230, 41, 41, 0.678);
 }
 
-.flip2 {}
+/* .flip2 {}
 
 .flip3 {}
 
-.flip4 {}
+.flip4 {} */
 
 @keyframes flip2 {
   0% {
@@ -183,7 +199,7 @@
 .footer{
   height: 80px;
   width: 100%;
-  background-color: rgba(8, 7, 7, 0.678);;
+  background-color: black;;
 }
 .footer ul {
   margin-left: 400px;

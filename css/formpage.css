@@ -59,6 +59,7 @@ input[type="password"] {
 }
 
 
+
 input[type="submit"] {
   margin-top: 28px;
   width: 120px;
@@ -73,7 +74,9 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-
+input:focus{
+  border-bottom: 2px solid #d45637;
+}
 
 .or {
   position: absolute;
@@ -123,4 +126,7 @@ button.facebook{
 
 button.google {
   background: #DD4B39;
+}
+button:hover{
+  opacity: 0.5;
 }
